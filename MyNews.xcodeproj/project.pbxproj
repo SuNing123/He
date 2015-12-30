@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC090C5D1C28F1F8009AB8B5 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC090C5C1C28F1F8009AB8B5 /* ContentViewController.m */; };
+		BC65FD561C264B520054E0D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD551C264B520054E0D5 /* main.m */; };
+		BC65FD591C264B520054E0D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD581C264B520054E0D5 /* AppDelegate.m */; };
+		BC65FD5C1C264B520054E0D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD5B1C264B520054E0D5 /* ViewController.m */; };
+		BC65FD5F1C264B520054E0D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC65FD5D1C264B520054E0D5 /* Main.storyboard */; };
+		BC65FD611C264B520054E0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC65FD601C264B520054E0D5 /* Assets.xcassets */; };
+		BC65FD641C264B520054E0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC65FD621C264B520054E0D5 /* LaunchScreen.storyboard */; };
+		BC65FD6F1C264B520054E0D5 /* MyNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD6E1C264B520054E0D5 /* MyNewsTests.m */; };
+		BC65FD7A1C264B520054E0D5 /* MyNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD791C264B520054E0D5 /* MyNewsUITests.m */; };
+		BC65FD8A1C264DC90054E0D5 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD891C264DC90054E0D5 /* MyTabBarViewController.m */; };
+		BC65FD8E1C264F170054E0D5 /* MyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD8D1C264F170054E0D5 /* MyBaseViewController.m */; };
+		BC65FD911C264F470054E0D5 /* MyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD901C264F470054E0D5 /* MyListViewController.m */; };
+		BC65FD9C1C264FCC0054E0D5 /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FD9B1C264FCC0054E0D5 /* ReadViewController.m */; };
+		BC65FDA21C26500B0054E0D5 /* SeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FDA11C26500B0054E0D5 /* SeeViewController.m */; };
+		BC65FDA51C2650630054E0D5 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FDA41C2650630054E0D5 /* DiscoverViewController.m */; };
+		BC65FDA81C2650910054E0D5 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FDA71C2650910054E0D5 /* SettingViewController.m */; };
+		BC65FDAB1C2652470054E0D5 /* tabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC65FDAA1C2652470054E0D5 /* tabBar.plist */; };
+		BC65FDB51C265BE60054E0D5 /* NewsHeadScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FDB41C265BE60054E0D5 /* NewsHeadScrollView.m */; };
+		BC65FDB71C265CF60054E0D5 /* NewsHeadLabel.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC65FDB61C265CF60054E0D5 /* NewsHeadLabel.plist */; };
+		BC65FDBD1C267B0F0054E0D5 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FDBC1C267B0F0054E0D5 /* UIView+Common.m */; };
+		BC86D3341C27AC9A0067D634 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC86D3331C27AC9A0067D634 /* NewsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC65FD6B1C264B520054E0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC65FD491C264B510054E0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC65FD501C264B520054E0D5;
+			remoteInfo = MyNews;
+		};
+		BC65FD761C264B520054E0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC65FD491C264B510054E0D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC65FD501C264B520054E0D5;
+			remoteInfo = MyNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC090C5A1C28F1D8009AB8B5 /* APIHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIHeader.pch; sourceTree = "<group>"; };
+		BC090C5B1C28F1F8009AB8B5 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		BC090C5C1C28F1F8009AB8B5 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		BC65FD511C264B520054E0D5 /* MyNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC65FD551C264B520054E0D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC65FD571C264B520054E0D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC65FD581C264B520054E0D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC65FD5A1C264B520054E0D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC65FD5B1C264B520054E0D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC65FD5E1C264B520054E0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC65FD601C264B520054E0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC65FD631C264B520054E0D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC65FD651C264B520054E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC65FD6A1C264B520054E0D5 /* MyNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC65FD6E1C264B520054E0D5 /* MyNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNewsTests.m; sourceTree = "<group>"; };
+		BC65FD701C264B520054E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC65FD751C264B520054E0D5 /* MyNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC65FD791C264B520054E0D5 /* MyNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNewsUITests.m; sourceTree = "<group>"; };
+		BC65FD7B1C264B520054E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC65FD881C264DC90054E0D5 /* MyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		BC65FD891C264DC90054E0D5 /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		BC65FD8C1C264F170054E0D5 /* MyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBaseViewController.h; sourceTree = "<group>"; };
+		BC65FD8D1C264F170054E0D5 /* MyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBaseViewController.m; sourceTree = "<group>"; };
+		BC65FD8F1C264F470054E0D5 /* MyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyListViewController.h; sourceTree = "<group>"; };
+		BC65FD901C264F470054E0D5 /* MyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListViewController.m; sourceTree = "<group>"; };
+		BC65FD9A1C264FCC0054E0D5 /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		BC65FD9B1C264FCC0054E0D5 /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		BC65FDA01C26500B0054E0D5 /* SeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeeViewController.h; sourceTree = "<group>"; };
+		BC65FDA11C26500B0054E0D5 /* SeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeeViewController.m; sourceTree = "<group>"; };
+		BC65FDA31C2650630054E0D5 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		BC65FDA41C2650630054E0D5 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		BC65FDA61C2650910054E0D5 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		BC65FDA71C2650910054E0D5 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		BC65FDAA1C2652470054E0D5 /* tabBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tabBar.plist; sourceTree = "<group>"; };
+		BC65FDB31C265BE60054E0D5 /* NewsHeadScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsHeadScrollView.h; sourceTree = "<group>"; };
+		BC65FDB41C265BE60054E0D5 /* NewsHeadScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsHeadScrollView.m; sourceTree = "<group>"; };
+		BC65FDB61C265CF60054E0D5 /* NewsHeadLabel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsHeadLabel.plist; sourceTree = "<group>"; };
+		BC65FDBB1C267B0F0054E0D5 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		BC65FDBC1C267B0F0054E0D5 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		BC86D3321C27AC9A0067D634 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		BC86D3331C27AC9A0067D634 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC65FD4E1C264B520054E0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65FD671C264B520054E0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65FD721C264B520054E0D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC65FD481C264B510054E0D5 = {
+			isa = PBXGroup;
+			children = (
+				BC65FD531C264B520054E0D5 /* MyNews */,
+				BC65FD6D1C264B520054E0D5 /* MyNewsTests */,
+				BC65FD781C264B520054E0D5 /* MyNewsUITests */,
+				BC65FD521C264B520054E0D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC65FD521C264B520054E0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FD511C264B520054E0D5 /* MyNews.app */,
+				BC65FD6A1C264B520054E0D5 /* MyNewsTests.xctest */,
+				BC65FD751C264B520054E0D5 /* MyNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC65FD531C264B520054E0D5 /* MyNews */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FD8B1C264ED50054E0D5 /* viewControllers */,
+				BC65FD871C264D840054E0D5 /* tabBar */,
+				BC65FD571C264B520054E0D5 /* AppDelegate.h */,
+				BC65FD581C264B520054E0D5 /* AppDelegate.m */,
+				BC65FD5A1C264B520054E0D5 /* ViewController.h */,
+				BC65FD5B1C264B520054E0D5 /* ViewController.m */,
+				BC65FD5D1C264B520054E0D5 /* Main.storyboard */,
+				BC65FD601C264B520054E0D5 /* Assets.xcassets */,
+				BC65FD621C264B520054E0D5 /* LaunchScreen.storyboard */,
+				BC65FD651C264B520054E0D5 /* Info.plist */,
+				BC65FD541C264B520054E0D5 /* Supporting Files */,
+			);
+			path = MyNews;
+			sourceTree = "<group>";
+		};
+		BC65FD541C264B520054E0D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FD551C264B520054E0D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC65FD6D1C264B520054E0D5 /* MyNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FD6E1C264B520054E0D5 /* MyNewsTests.m */,
+				BC65FD701C264B520054E0D5 /* Info.plist */,
+			);
+			path = MyNewsTests;
+			sourceTree = "<group>";
+		};
+		BC65FD781C264B520054E0D5 /* MyNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FD791C264B520054E0D5 /* MyNewsUITests.m */,
+				BC65FD7B1C264B520054E0D5 /* Info.plist */,
+			);
+			path = MyNewsUITests;
+			sourceTree = "<group>";
+		};
+		BC65FD871C264D840054E0D5 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FDA91C26522A0054E0D5 /* sourceFiles */,
+				BC65FD881C264DC90054E0D5 /* MyTabBarViewController.h */,
+				BC65FD891C264DC90054E0D5 /* MyTabBarViewController.m */,
+			);
+			name = tabBar;
+			sourceTree = "<group>";
+		};
+		BC65FD8B1C264ED50054E0D5 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FD961C264F980054E0D5 /* 设置 */,
+				BC65FD951C264F910054E0D5 /* 发现 */,
+				BC65FD941C264F810054E0D5 /* 视听 */,
+				BC65FD931C264F620054E0D5 /* 阅读 */,
+				BC65FD921C264F590054E0D5 /* 新闻 */,
+				BC65FD8C1C264F170054E0D5 /* MyBaseViewController.h */,
+				BC65FD8D1C264F170054E0D5 /* MyBaseViewController.m */,
+				BC65FD8F1C264F470054E0D5 /* MyListViewController.h */,
+				BC65FD901C264F470054E0D5 /* MyListViewController.m */,
+			);
+			name = viewControllers;
+			sourceTree = "<group>";
+		};
+		BC65FD921C264F590054E0D5 /* 新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FDAC1C2657C00054E0D5 /* subViews */,
+			);
+			name = "新闻";
+			sourceTree = "<group>";
+		};
+		BC65FD931C264F620054E0D5 /* 阅读 */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FD9A1C264FCC0054E0D5 /* ReadViewController.h */,
+				BC65FD9B1C264FCC0054E0D5 /* ReadViewController.m */,
+			);
+			name = "阅读";
+			sourceTree = "<group>";
+		};
+		BC65FD941C264F810054E0D5 /* 视听 */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FDA01C26500B0054E0D5 /* SeeViewController.h */,
+				BC65FDA11C26500B0054E0D5 /* SeeViewController.m */,
+			);
+			name = "视听";
+			sourceTree = "<group>";
+		};
+		BC65FD951C264F910054E0D5 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FDA31C2650630054E0D5 /* DiscoverViewController.h */,
+				BC65FDA41C2650630054E0D5 /* DiscoverViewController.m */,
+			);
+			name = "发现";
+			sourceTree = "<group>";
+		};
+		BC65FD961C264F980054E0D5 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FDA61C2650910054E0D5 /* SettingViewController.h */,
+				BC65FDA71C2650910054E0D5 /* SettingViewController.m */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
+		BC65FDA91C26522A0054E0D5 /* sourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BC65FDBB1C267B0F0054E0D5 /* UIView+Common.h */,
+				BC65FDBC1C267B0F0054E0D5 /* UIView+Common.m */,
+				BC65FDAA1C2652470054E0D5 /* tabBar.plist */,
+				BC65FDB61C265CF60054E0D5 /* NewsHeadLabel.plist */,
+			);
+			name = sourceFiles;
+			sourceTree = "<group>";
+		};
+		BC65FDAC1C2657C00054E0D5 /* subViews */ = {
+			isa = PBXGroup;
+			children = (
+				BC090C5B1C28F1F8009AB8B5 /* ContentViewController.h */,
+				BC090C5C1C28F1F8009AB8B5 /* ContentViewController.m */,
+				BC090C5A1C28F1D8009AB8B5 /* APIHeader.pch */,
+				BC65FDB31C265BE60054E0D5 /* NewsHeadScrollView.h */,
+				BC65FDB41C265BE60054E0D5 /* NewsHeadScrollView.m */,
+				BC86D3321C27AC9A0067D634 /* NewsViewController.h */,
+				BC86D3331C27AC9A0067D634 /* NewsViewController.m */,
+			);
+			name = subViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC65FD501C264B520054E0D5 /* MyNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC65FD7E1C264B520054E0D5 /* Build configuration list for PBXNativeTarget "MyNews" */;
+			buildPhases = (
+				BC65FD4D1C264B520054E0D5 /* Sources */,
+				BC65FD4E1C264B520054E0D5 /* Frameworks */,
+				BC65FD4F1C264B520054E0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNews;
+			productName = MyNews;
+			productReference = BC65FD511C264B520054E0D5 /* MyNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC65FD691C264B520054E0D5 /* MyNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC65FD811C264B520054E0D5 /* Build configuration list for PBXNativeTarget "MyNewsTests" */;
+			buildPhases = (
+				BC65FD661C264B520054E0D5 /* Sources */,
+				BC65FD671C264B520054E0D5 /* Frameworks */,
+				BC65FD681C264B520054E0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC65FD6C1C264B520054E0D5 /* PBXTargetDependency */,
+			);
+			name = MyNewsTests;
+			productName = MyNewsTests;
+			productReference = BC65FD6A1C264B520054E0D5 /* MyNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC65FD741C264B520054E0D5 /* MyNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC65FD841C264B520054E0D5 /* Build configuration list for PBXNativeTarget "MyNewsUITests" */;
+			buildPhases = (
+				BC65FD711C264B520054E0D5 /* Sources */,
+				BC65FD721C264B520054E0D5 /* Frameworks */,
+				BC65FD731C264B520054E0D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC65FD771C264B520054E0D5 /* PBXTargetDependency */,
+			);
+			name = MyNewsUITests;
+			productName = MyNewsUITests;
+			productReference = BC65FD751C264B520054E0D5 /* MyNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC65FD491C264B510054E0D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GCJ;
+				TargetAttributes = {
+					BC65FD501C264B520054E0D5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BC65FD691C264B520054E0D5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BC65FD501C264B520054E0D5;
+					};
+					BC65FD741C264B520054E0D5 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BC65FD501C264B520054E0D5;
+					};
+				};
+			};
+			buildConfigurationList = BC65FD4C1C264B510054E0D5 /* Build configuration list for PBXProject "MyNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC65FD481C264B510054E0D5;
+			productRefGroup = BC65FD521C264B520054E0D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC65FD501C264B520054E0D5 /* MyNews */,
+				BC65FD691C264B520054E0D5 /* MyNewsTests */,
+				BC65FD741C264B520054E0D5 /* MyNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC65FD4F1C264B520054E0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC65FDB71C265CF60054E0D5 /* NewsHeadLabel.plist in Resources */,
+				BC65FD641C264B520054E0D5 /* LaunchScreen.storyboard in Resources */,
+				BC65FD611C264B520054E0D5 /* Assets.xcassets in Resources */,
+				BC65FDAB1C2652470054E0D5 /* tabBar.plist in Resources */,
+				BC65FD5F1C264B520054E0D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65FD681C264B520054E0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65FD731C264B520054E0D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC65FD4D1C264B520054E0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC65FD8A1C264DC90054E0D5 /* MyTabBarViewController.m in Sources */,
+				BC65FDBD1C267B0F0054E0D5 /* UIView+Common.m in Sources */,
+				BC65FD5C1C264B520054E0D5 /* ViewController.m in Sources */,
+				BC65FDA21C26500B0054E0D5 /* SeeViewController.m in Sources */,
+				BC65FD9C1C264FCC0054E0D5 /* ReadViewController.m in Sources */,
+				BC65FDA51C2650630054E0D5 /* DiscoverViewController.m in Sources */,
+				BC65FD591C264B520054E0D5 /* AppDelegate.m in Sources */,
+				BC65FD8E1C264F170054E0D5 /* MyBaseViewController.m in Sources */,
+				BC65FD911C264F470054E0D5 /* MyListViewController.m in Sources */,
+				BC65FDA81C2650910054E0D5 /* SettingViewController.m in Sources */,
+				BC090C5D1C28F1F8009AB8B5 /* ContentViewController.m in Sources */,
+				BC65FD561C264B520054E0D5 /* main.m in Sources */,
+				BC65FDB51C265BE60054E0D5 /* NewsHeadScrollView.m in Sources */,
+				BC86D3341C27AC9A0067D634 /* NewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65FD661C264B520054E0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC65FD6F1C264B520054E0D5 /* MyNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC65FD711C264B520054E0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC65FD7A1C264B520054E0D5 /* MyNewsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC65FD6C1C264B520054E0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC65FD501C264B520054E0D5 /* MyNews */;
+			targetProxy = BC65FD6B1C264B520054E0D5 /* PBXContainerItemProxy */;
+		};
+		BC65FD771C264B520054E0D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC65FD501C264B520054E0D5 /* MyNews */;
+			targetProxy = BC65FD761C264B520054E0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC65FD5D1C264B520054E0D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC65FD5E1C264B520054E0D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC65FD621C264B520054E0D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC65FD631C264B520054E0D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC65FD7C1C264B520054E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC65FD7D1C264B520054E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC65FD7F1C264B520054E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1517.MyNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC65FD801C264B520054E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1517.MyNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC65FD821C264B520054E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1517.MyNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNews.app/MyNews";
+			};
+			name = Debug;
+		};
+		BC65FD831C264B520054E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1517.MyNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNews.app/MyNews";
+			};
+			name = Release;
+		};
+		BC65FD851C264B520054E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1517.MyNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC65FD861C264B520054E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1517.MyNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyNews;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC65FD4C1C264B510054E0D5 /* Build configuration list for PBXProject "MyNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65FD7C1C264B520054E0D5 /* Debug */,
+				BC65FD7D1C264B520054E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC65FD7E1C264B520054E0D5 /* Build configuration list for PBXNativeTarget "MyNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65FD7F1C264B520054E0D5 /* Debug */,
+				BC65FD801C264B520054E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC65FD811C264B520054E0D5 /* Build configuration list for PBXNativeTarget "MyNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65FD821C264B520054E0D5 /* Debug */,
+				BC65FD831C264B520054E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC65FD841C264B520054E0D5 /* Build configuration list for PBXNativeTarget "MyNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC65FD851C264B520054E0D5 /* Debug */,
+				BC65FD861C264B520054E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC65FD491C264B510054E0D5 /* Project object */;
+}

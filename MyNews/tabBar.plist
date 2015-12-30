@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>新闻</string>
+		<key>iconName</key>
+		<string></string>
+		<key>className</key>
+		<string>NewsViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>阅读</string>
+		<key>iconName</key>
+		<string></string>
+		<key>className</key>
+		<string>ReadViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>视听</string>
+		<key>iconName</key>
+		<string></string>
+		<key>className</key>
+		<string>SeeViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>发现</string>
+		<key>iconName</key>
+		<string></string>
+		<key>className</key>
+		<string>DiscoverViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>设置</string>
+		<key>iconName</key>
+		<string></string>
+		<key>className</key>
+		<string>SettingViewController</string>
+	</dict>
+</array>
+</plist>
