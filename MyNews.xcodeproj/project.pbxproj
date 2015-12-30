@@ -27,6 +27,7 @@
 		BC65FDB51C265BE60054E0D5 /* NewsHeadScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FDB41C265BE60054E0D5 /* NewsHeadScrollView.m */; };
 		BC65FDB71C265CF60054E0D5 /* NewsHeadLabel.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC65FDB61C265CF60054E0D5 /* NewsHeadLabel.plist */; };
 		BC65FDBD1C267B0F0054E0D5 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65FDBC1C267B0F0054E0D5 /* UIView+Common.m */; };
+		BC8010941C33C69E002E4C10 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8010931C33C69E002E4C10 /* MyClass.m */; };
 		BC86D3341C27AC9A0067D634 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC86D3331C27AC9A0067D634 /* NewsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,8 @@
 		BC65FDB61C265CF60054E0D5 /* NewsHeadLabel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsHeadLabel.plist; sourceTree = "<group>"; };
 		BC65FDBB1C267B0F0054E0D5 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
 		BC65FDBC1C267B0F0054E0D5 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		BC8010921C33C69E002E4C10 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		BC8010931C33C69E002E4C10 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		BC86D3321C27AC9A0067D634 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		BC86D3331C27AC9A0067D634 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +146,8 @@
 				BC65FD871C264D840054E0D5 /* tabBar */,
 				BC65FD571C264B520054E0D5 /* AppDelegate.h */,
 				BC65FD581C264B520054E0D5 /* AppDelegate.m */,
+				BC8010921C33C69E002E4C10 /* MyClass.h */,
+				BC8010931C33C69E002E4C10 /* MyClass.m */,
 				BC65FD5A1C264B520054E0D5 /* ViewController.h */,
 				BC65FD5B1C264B520054E0D5 /* ViewController.m */,
 				BC65FD5D1C264B520054E0D5 /* Main.storyboard */,
@@ -419,6 +424,7 @@
 				BC65FDA81C2650910054E0D5 /* SettingViewController.m in Sources */,
 				BC090C5D1C28F1F8009AB8B5 /* ContentViewController.m in Sources */,
 				BC65FD561C264B520054E0D5 /* main.m in Sources */,
+				BC8010941C33C69E002E4C10 /* MyClass.m in Sources */,
 				BC65FDB51C265BE60054E0D5 /* NewsHeadScrollView.m in Sources */,
 				BC86D3341C27AC9A0067D634 /* NewsViewController.m in Sources */,
 			);

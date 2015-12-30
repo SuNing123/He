@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MyTabBarViewController.h"
-
+#import "MyClass.h"
 @interface AppDelegate ()
 
 @end
@@ -27,6 +27,8 @@
     [self.window makeKeyAndVisible];
     
     //我想回家。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
+    //我是developer分之的呢绒
+    MyClass *myClass = [MyClass new];
     
     return YES;
 }
