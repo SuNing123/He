@@ -26,7 +26,7 @@
     
     [self.window makeKeyAndVisible];
     
-    
+    //我想回家。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
     
     return YES;
 }
